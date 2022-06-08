@@ -4,9 +4,9 @@ import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
-public class gameTest {
+public class GameTest {
   @Test public void testGetsWordToGuess() {
-    game game = new game();
+    Game game = new Game();
     assertEquals(game.getWordToGuess(), "B_____");
   }
 }
